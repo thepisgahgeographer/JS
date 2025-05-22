@@ -1,0 +1,19 @@
+{
+  "name": "js-boilerplate-app",
+  "version": "1.0.0",
+  "description": "A simple JavaScript boilerplate application.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "boilerplate",
+    "javascript",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
