@@ -5,16 +5,24 @@ function main() {
     
 }
 
+let arithemtic = 100 + 4 * 11;
+
+
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
-  const btn = document.getElementById('getScreenSizeBtn');
+  // const btn = document.getElementById('getScreenSizeBtn');
   const result = document.getElementById('screenSizeResult');
+  // btn.addEventListener('click', function () {
+  //   const width = window.screen.width;
+  //   const height = window.screen.height;
+  //   result.textContent = `Screen size: ${width} x ${height} pixels`;
+  
+  // });
+  
+  result.textContent = arithemtic
 
-  btn.addEventListener('click', function () {
-    const width = window.screen.width;
-    const height = window.screen.height;
-    result.textContent = `Screen size: ${width} x ${height} pixels`;
-  });
 });
 
 main();
