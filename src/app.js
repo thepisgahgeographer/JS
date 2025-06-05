@@ -6,8 +6,12 @@ function main() {
 }
 
 let arithemtic = 100 + 4 * 11;
+let modulo = 312.5 % 100;
+let test = "concat" + "enate";
+let temp_literal = `This is a template literal with a variable: ${arithemtic} and ${modulo}`;
 
-
+let logical = true || false && false;
+let order = 1 + 1 == 2 && 1 * 10 > 50;
 
 
 
@@ -20,12 +24,15 @@ document.addEventListener('DOMContentLoaded', function () {
   //   result.textContent = `Screen size: ${width} x ${height} pixels`;
   
   // });
-  
-  result.textContent = arithemtic
 
+  // result.textContent = test;
+  result.textContent = temp_literal;
+  result.textContent = (-(10-2));
+  result.textContent = order;
+  result.textContent = (logical > order ? 1 : 2);
 });
 
-main();
+// main();
 
 
 
