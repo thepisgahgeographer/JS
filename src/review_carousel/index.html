@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Review - JS Project</title>
+    <!-- Styling for the client UI -->
+    <style>
+        body {
+            background-color: rgb(118, 153, 153);
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <h1>AREA OF A RECTANGLE!</h1>
+    <form>
+        <label>Length:</label>
+        <input type="text" id="length">
+        <label>Width:</label>
+        <input type="text" id="width">
+        <!-- set button onClick method to call function we defined passing input values as parameters -->
+        <button type="button"
+            onclick="callAPI(document.getElementById('length').value,document.getElementById('width').value)">CALCULATE</button>
+    </form>
+
+    <script src="carousel.js"></script>
+
+</body>
+
+</html>
